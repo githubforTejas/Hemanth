@@ -15,9 +15,7 @@ public class CreateContactAndVerifyTest extends BaseClass {
 	@Test(groups = "smoke",priority = 1)//retryAnalyzer = com.crm.vtigerTY.genericUtilities.RetryAnalyzerImplement.class
 	public void createContactsAndVerify() throws Throwable
 	{
-	// to get random number
-		// check in git hub if visible 
-		
+	// to get random number	
 		int random = jutil.getRandomNumber();
 		
 	// Fetch the data's from Excel
