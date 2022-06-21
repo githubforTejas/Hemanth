@@ -1,0 +1,173 @@
+<html>
+<head>
+<title>TestNG:  Chrome</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Chrome</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>9/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Jun 21 12:48:31 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>382 seconds (382119 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.crm.vtigerTY.contacts.SelectLastViewedContactAndLogoutTest.selectLastViewContactLogout()'><b>selectLastViewContactLogout</b><br>Test class: com.crm.vtigerTY.contacts.SelectLastViewedContactAndLogoutTest<br/>
+<a href="#Output-1820625220" onClick='toggleBox("Output-1820625220", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1820625220" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1820625220">
+test case is pass<br/>
+</div>
+</td>
+<td></td>
+<td>14</td>
+<td>com.crm.vtigerTY.contacts.SelectLastViewedContactAndLogoutTest@71a8adcf</td></tr>
+<tr>
+<td title='com.crm.vtigerTY.contacts.CreateContactAndVerifyTest.createContactsAndVerify()'><b>createContactsAndVerify</b><br>Test class: com.crm.vtigerTY.contacts.CreateContactAndVerifyTest</td>
+<td></td>
+<td>30</td>
+<td>com.crm.vtigerTY.contacts.CreateContactAndVerifyTest@82de64a</td></tr>
+<tr>
+<td title='com.crm.vtigerTY.contacts.DuplicateTheContactAndVerifyTest.selectDuplicateContact()'><b>selectDuplicateContact</b><br>Test class: com.crm.vtigerTY.contacts.DuplicateTheContactAndVerifyTest<br/>
+<a href="#Output-1118955045" onClick='toggleBox("Output-1118955045", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1118955045" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1118955045">
+Contact is created and Test case is pass<br/>
+</div>
+</td>
+<td></td>
+<td>35</td>
+<td>com.crm.vtigerTY.contacts.DuplicateTheContactAndVerifyTest@27462a88</td></tr>
+<tr>
+<td title='com.crm.vtigerTY.contacts.CreateContactWithOrganizationTest.createContactWithOrganization()'><b>createContactWithOrganization</b><br>Test class: com.crm.vtigerTY.contacts.CreateContactWithOrganizationTest</td>
+<td></td>
+<td>27</td>
+<td>com.crm.vtigerTY.contacts.CreateContactWithOrganizationTest@7bab3f1a</td></tr>
+<tr>
+<td title='com.crm.vtigerTY.organization.CreateOrganizationAndVerifyTest.createOrganizationAndVerify()'><b>createOrganizationAndVerify</b><br>Test class: com.crm.vtigerTY.organization.CreateOrganizationAndVerifyTest<br/>
+<a href="#Output-1595681238" onClick='toggleBox("Output-1595681238", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1595681238" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1595681238">
+organization created and Test case is pass<br/>
+</div>
+</td>
+<td></td>
+<td>23</td>
+<td>com.crm.vtigerTY.organization.CreateOrganizationAndVerifyTest@61001b64</td></tr>
+<tr>
+<td title='com.crm.vtigerTY.contacts.SelectContactAndSendEmailTest.selectOneContactSendEmail()'><b>selectOneContactSendEmail</b><br>Test class: com.crm.vtigerTY.contacts.SelectContactAndSendEmailTest<br/>
+<a href="#Output-1390108896" onClick='toggleBox("Output-1390108896", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1390108896" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1390108896">
+compose page is displayed<br/>
+</div>
+</td>
+<td></td>
+<td>20</td>
+<td>com.crm.vtigerTY.contacts.SelectContactAndSendEmailTest@51e69659</td></tr>
+<tr>
+<td title='com.crm.vtigerTY.organization.CreateOrganizationWithContactTest.createOranizationAndContactsAndVerify()'><b>createOranizationAndContactsAndVerify</b><br>Test class: com.crm.vtigerTY.organization.CreateOrganizationWithContactTest<br/>
+<a href="#Output-1956001371" onClick='toggleBox("Output-1956001371", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1956001371" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1956001371">
+Contact is created and Test case is pass<br/>
+</div>
+</td>
+<td></td>
+<td>23</td>
+<td>com.crm.vtigerTY.organization.CreateOrganizationWithContactTest@49049a04</td></tr>
+<tr>
+<td title='com.crm.vtigerTY.contacts.EditContactAndVerifyTest.editContactAndVerify()'><b>editContactAndVerify</b><br>Test class: com.crm.vtigerTY.contacts.EditContactAndVerifyTest<br/>
+<a href="#Output-162384192" onClick='toggleBox("Output-162384192", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-162384192" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-162384192">
+Contact is created and Test case is pass<br/>
+</div>
+</td>
+<td></td>
+<td>22</td>
+<td>com.crm.vtigerTY.contacts.EditContactAndVerifyTest@4310d43</td></tr>
+<tr>
+<td title='com.crm.vtigerTY.organization.CreateOrganizationWithDropdownTest.createOrganizationWithDropdowns()'><b>createOrganizationWithDropdowns</b><br>Test class: com.crm.vtigerTY.organization.CreateOrganizationWithDropdownTest<br/>
+<a href="#Output-1276089776" onClick='toggleBox("Output-1276089776", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1276089776" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1276089776">
+organization created and Test case is pass<br/>
+</div>
+</td>
+<td></td>
+<td>23</td>
+<td>com.crm.vtigerTY.organization.CreateOrganizationWithDropdownTest@659499f1</td></tr>
+</table><p>
+</body>
+</html>

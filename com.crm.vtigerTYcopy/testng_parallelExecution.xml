@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="Suite">
+<!--listeners>
+<listener class-name = "com.crm.vtigerTY.genericUtilities.ListenerImp" ></listener>
+</listeners-->
+  <test thread-count="3" parallel="classes" name="Test">
+    <classes>
+      <class name="com.crm.vtigerTY.contacts.CreateContactWithOrganizationTest"/>
+      <class name="com.crm.vtigerTY.organization.CreateOrganizationWithContactTest"/>
+      <class name="com.crm.vtigerTY.contacts.SelectLastViewedContactAndLogoutTest"/>
+      <class name="com.crm.vtigerTY.contacts.DuplicateTheContactAndVerifyTest"/>
+      <class name="com.crm.vtigerTY.contacts.CreateContactAndVerifyTest"/>
+      <class name="com.crm.vtigerTY.organization.CreateOrganizationWithDropdownTest"/>
+      <class name="com.crm.vtigerTY.contacts.SelectContactAndSendEmailTest"/>
+      <class name="com.crm.vtigerTY.organization.CreateOrganizationAndVerifyTest"/>
+      <class name="com.crm.vtigerTY.contacts.EditContactAndVerifyTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
