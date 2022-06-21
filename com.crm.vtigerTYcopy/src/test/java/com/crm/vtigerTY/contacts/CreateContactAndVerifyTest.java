@@ -16,6 +16,7 @@ public class CreateContactAndVerifyTest extends BaseClass {
 	public void createContactsAndVerify() throws Throwable
 	{
 	// to get random number
+		// check in git hub if visible 
 		
 		int random = jutil.getRandomNumber();
 		
