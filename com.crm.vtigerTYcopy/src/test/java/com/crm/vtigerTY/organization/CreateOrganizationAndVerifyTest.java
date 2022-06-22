@@ -12,7 +12,7 @@ import com.crm.vtigerTY.objectRepository.VtigerOrganizationInfoPage;
 import com.crm.vtigerTY.objectRepository.VtigerOrganizationPage;
 //@Listeners(com.crm.vtigerTY.genericUtilities.ListenerImp.class)
 public class CreateOrganizationAndVerifyTest extends BaseClass{
-	@Test(groups = "smoke")
+	@Test(groups = "system")
 	public void createOrganizationAndVerify() throws Throwable 
 	{
 	// to get random number
