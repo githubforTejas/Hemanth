@@ -37,6 +37,7 @@ public class CreateOrganizationAndVerifyTest extends BaseClass{
 		VtigerOrganizationInfoPage orgInfoPage = new VtigerOrganizationInfoPage(driver);
 		String actualOrganizationName = orgInfoPage.getActualOrganizationName();
 		Assert.assertEquals(actualOrganizationName, organizationName);
-			Reporter.log("organization created and Test case is pass",true);	
+			Reporter.log("organization created and Test case is pass",true);
+			System.out.println("hi hello bye");
 	}
 }
