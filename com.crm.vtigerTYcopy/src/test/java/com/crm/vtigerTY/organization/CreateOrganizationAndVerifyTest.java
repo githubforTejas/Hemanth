@@ -12,7 +12,7 @@ import com.crm.vtigerTY.objectRepository.VtigerOrganizationInfoPage;
 import com.crm.vtigerTY.objectRepository.VtigerOrganizationPage;
 //@Listeners(com.crm.vtigerTY.genericUtilities.ListenerImp.class)
 public class CreateOrganizationAndVerifyTest extends BaseClass{
-	@Test(groups = "system")
+	@Test(groups = "system",priority = 2)
 	public void createOrganizationAndVerify() throws Throwable 
 	{
 	// to get random number
@@ -37,7 +37,9 @@ public class CreateOrganizationAndVerifyTest extends BaseClass{
 		VtigerOrganizationInfoPage orgInfoPage = new VtigerOrganizationInfoPage(driver);
 		String actualOrganizationName = orgInfoPage.getActualOrganizationName();
 		Assert.assertEquals(actualOrganizationName, organizationName);
+
 			Reporter.log("organization created and Test case is pass",true);
+
 			System.out.println("hi hello bye");
 	}
 }
