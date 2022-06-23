@@ -39,11 +39,11 @@ public class BaseClass
 	 * launch the browser
 	 * @throws Throwable
 	 */
- 		@Parameters("Browser")
+ 
 	@BeforeClass(groups = {"smoke","system"})
-	public void launchBrowser(String Browser) throws Throwable
+	public void launchBrowser() throws Throwable
 	{
-		//String Browser = futil.getPropertyKeyValue("browser");
+		String Browser = futil.getPropertyKeyValue("browser");
 	String Url=futil.getPropertyKeyValue("url");
 		if (Browser.equalsIgnoreCase("chrome"))
 		{
