@@ -8,28 +8,14 @@
 		<parameter name="Browser" value="chrome" />
     <classes>
       <class name="com.crm.vtigerTY.contacts.CreateContactWithOrganizationTest"/>
-      <class name="com.crm.vtigerTY.organization.CreateOrganizationWithContactTest"/>
-      <class name="com.crm.vtigerTY.contacts.SelectLastViewedContactAndLogoutTest"/>
-      <class name="com.crm.vtigerTY.contacts.DuplicateTheContactAndVerifyTest"/>
-      <class name="com.crm.vtigerTY.contacts.CreateContactAndVerifyTest"/>
-      <class name="com.crm.vtigerTY.organization.CreateOrganizationWithDropdownTest"/>
-      <class name="com.crm.vtigerTY.contacts.SelectContactAndSendEmailTest"/>
-      <class name="com.crm.vtigerTY.organization.CreateOrganizationAndVerifyTest"/>
-      <class name="com.crm.vtigerTY.contacts.EditContactAndVerifyTest"/>
+      
     </classes>
     </test>
     <test name="Firefox">
 		<parameter name="Browser" value="firefox" />
 		<classes>
 		 <class name="com.crm.vtigerTY.contacts.CreateContactWithOrganizationTest"/>
-      <class name="com.crm.vtigerTY.organization.CreateOrganizationWithContactTest"/>
-      <class name="com.crm.vtigerTY.contacts.SelectLastViewedContactAndLogoutTest"/>
-      <class name="com.crm.vtigerTY.contacts.DuplicateTheContactAndVerifyTest"/>
-      <class name="com.crm.vtigerTY.contacts.CreateContactAndVerifyTest"/>
-      <class name="com.crm.vtigerTY.organization.CreateOrganizationWithDropdownTest"/>
-      <class name="com.crm.vtigerTY.contacts.SelectContactAndSendEmailTest"/>
-      <class name="com.crm.vtigerTY.organization.CreateOrganizationAndVerifyTest"/>
-      <class name="com.crm.vtigerTY.contacts.EditContactAndVerifyTest"/>
+     
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

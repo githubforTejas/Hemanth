@@ -9,6 +9,7 @@ import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.Parameters;
 
 import com.crm.vtigerTY.objectRepository.VtigerHomePage;
 import com.crm.vtigerTY.objectRepository.VtigerLoginPage;
@@ -38,12 +39,12 @@ public class BaseClass
 	 * launch the browser
 	 * @throws Throwable
 	 */
-	//@Parameters("Browser")
+ 		@Parameters("Browser")
 	@BeforeClass(groups = {"smoke","system"})
-	public void launchBrowser() throws Throwable
+	public void launchBrowser(String Browser) throws Throwable
 	{
-		String Browser = futil.getPropertyKeyValue("browser");
-		String Url=futil.getPropertyKeyValue("url");
+		//String Browser = futil.getPropertyKeyValue("browser");
+	String Url=futil.getPropertyKeyValue("url");
 		if (Browser.equalsIgnoreCase("chrome"))
 		{
 			WebDriverManager.chromedriver().setup();
