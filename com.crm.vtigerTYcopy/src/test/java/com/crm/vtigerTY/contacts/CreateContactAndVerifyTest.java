@@ -2,6 +2,7 @@ package com.crm.vtigerTY.contacts;
 
 import static org.testng.Assert.assertEquals;
 
+import org.openqa.selenium.JavascriptExecutor;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
@@ -27,7 +28,8 @@ public class CreateContactAndVerifyTest extends BaseClass {
 	// click on contact link
 		VtigerHomePage homePage = new VtigerHomePage(driver);
 		homePage.getContactLink();
-	
+	JavascriptExecutor jss=(JavascriptExecutor)driver;
+	jss.executeScript("window.scrollBy(0,500");
 		
 	// click on create new contact look up image	
 		VtigerContactPage contactPage = new VtigerContactPage(driver);
