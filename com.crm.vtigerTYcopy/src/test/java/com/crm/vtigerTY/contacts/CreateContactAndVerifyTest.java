@@ -3,6 +3,7 @@ package com.crm.vtigerTY.contacts;
 import static org.testng.Assert.assertEquals;
 
 import org.openqa.selenium.JavascriptExecutor;
+import org.testng.Assert;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
@@ -11,7 +12,7 @@ import com.crm.vtigerTY.objectRepository.VtigerContactInfoPage;
 import com.crm.vtigerTY.objectRepository.VtigerContactPage;
 import com.crm.vtigerTY.objectRepository.VtigerCreateContactPage;
 import com.crm.vtigerTY.objectRepository.VtigerHomePage;
-//@Listeners(com.crm.vtigerTY.genericUtilities.ListenerImp.class)
+@Listeners(com.crm.vtigerTY.genericUtilities.ListImplementClass.class)
 public class CreateContactAndVerifyTest extends BaseClass {
 	@Test(groups = "smoke",priority = 1)//retryAnalyzer = com.crm.vtigerTY.genericUtilities.RetryAnalyzerImplement.class
 	public void createContactsAndVerify() throws Throwable
@@ -42,6 +43,7 @@ public class CreateContactAndVerifyTest extends BaseClass {
 		createNewContactPage.getLastName(lastName);
 		createNewContactPage.getMobileTextEdit(contactNumber);
 		createNewContactPage.getSaveBtn();
+		
 		
 	// verify contact is created 
 		VtigerContactInfoPage contactInfo = new VtigerContactInfoPage(driver);

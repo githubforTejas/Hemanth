@@ -1,6 +1,7 @@
 package com.crm.vtigerTY.genericUtilities;
 
 import java.io.File;
+import java.util.Date;
 import java.util.Iterator;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
@@ -24,7 +25,8 @@ import com.google.common.io.Files;
  * @author Hemanth
  *
  */
-public class WebDriverUtility {
+public class WebDriverUtility  
+{
 	/**
 	 *It will wait for 10 seconds till the page gets loaded 
 	 * @param driver
@@ -256,12 +258,16 @@ public class WebDriverUtility {
 	 * @param screenShotName
 	 * @throws Throwable
 	 */
-	public void takeScreenShot(WebDriver driver,String screenShotName) throws Throwable 
+	public static String takeScreenShot(WebDriver driver,String screenShotName) throws Throwable 
 	{
+		JavaUtility jutil = new JavaUtility();
+		String dateAndTime = jutil.getSystemdateAndTypeInISTFormat();
+		
 		TakesScreenshot takeScreenShot = (TakesScreenshot) driver;
 		File src = takeScreenShot.getScreenshotAs(OutputType.FILE);
-		File dst = new File(IPathConstant.screenshotpath+screenShotName+".png");
+		File dst = new File("./ScreenShot/"+screenShotName+dateAndTime+".png");
 		Files.copy(src, dst);
+		return screenShotName;
 	}
 	/**
 	 * it is used to perform scroll bar Action

@@ -14,5 +14,7 @@ public interface IPathConstant
 	String firefoxpath="./src\\main\\resources\\geckodriver.exe";
 	String firefoxkey="webdriver.gecko.driver";
 
+	String extentreportpath="./ExtentReport/";
+	
 	String uploadfilepath="C:\\Users\\heman\\OneDrive\\Desktop\\240445_Friends.jpg";
 }
