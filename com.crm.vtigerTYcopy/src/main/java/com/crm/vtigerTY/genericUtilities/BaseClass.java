@@ -43,7 +43,7 @@ public class BaseClass
 	public void launchBrowser() throws Throwable
 	{
 		String Browser = futil.getPropertyKeyValue("browser");
-	String Url=futil.getPropertyKeyValue("url");
+	    String Url=futil.getPropertyKeyValue("url");
 		if (Browser.equalsIgnoreCase("chrome"))
 		{
 			WebDriverManager.chromedriver().setup();
