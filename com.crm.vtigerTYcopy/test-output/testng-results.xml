@@ -1,44 +1,619 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="16" total="25" passed="7" failed="2" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[test case is pass]]>
+    </line>
+    <line>
+      <![CDATA[Contact is created and Test case is pass]]>
+    </line>
+    <line>
+      <![CDATA[compose page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Contact is created and Test case is pass]]>
+    </line>
+    <line>
+      <![CDATA[organization created and Test case is pass]]>
+    </line>
+    <line>
+      <![CDATA[Contact is created and Test case is pass]]>
+    </line>
   </reporter-output>
-  <suite started-at="2022-06-23T15:36:15 IST" name="Default suite" finished-at="2022-06-23T15:37:42 IST" duration-ms="86878">
+  <suite started-at="2022-06-24T12:52:27 IST" name="Suite" finished-at="2022-06-24T13:00:05 IST" duration-ms="457164">
     <groups>
+      <group name="system">
+        <method signature="CreateContactWithOrganizationTest.createContactWithOrganization()[pri:0, instance:com.crm.vtigerTY.contacts.CreateContactWithOrganizationTest@32502377]" name="createContactWithOrganization" class="com.crm.vtigerTY.contacts.CreateContactWithOrganizationTest"/>
+        <method signature="CreateOrganizationAndVerifyTest.createOrganizationAndVerify()[pri:2, instance:com.crm.vtigerTY.organization.CreateOrganizationAndVerifyTest@71a8adcf]" name="createOrganizationAndVerify" class="com.crm.vtigerTY.organization.CreateOrganizationAndVerifyTest"/>
+        <method signature="CreateOrganizationWithDropdownTest.createOrganizationWithDropdowns()[pri:0, instance:com.crm.vtigerTY.organization.CreateOrganizationWithDropdownTest@67f639d3]" name="createOrganizationWithDropdowns" class="com.crm.vtigerTY.organization.CreateOrganizationWithDropdownTest"/>
+        <method signature="EditContactAndVerifyTest.editContactAndVerify()[pri:0, instance:com.crm.vtigerTY.contacts.EditContactAndVerifyTest@290222c1]" name="editContactAndVerify" class="com.crm.vtigerTY.contacts.EditContactAndVerifyTest"/>
+        <method signature="SelectContactAndSendEmailTest.selectOneContactSendEmail()[pri:0, instance:com.crm.vtigerTY.contacts.SelectContactAndSendEmailTest@12aba8be]" name="selectOneContactSendEmail" class="com.crm.vtigerTY.contacts.SelectContactAndSendEmailTest"/>
+      </group> <!-- system -->
       <group name="smoke">
-        <method signature="CreateContactAndVerifyTest.createContactsAndVerify()[pri:1, instance:com.crm.vtigerTY.contacts.CreateContactAndVerifyTest@2805d709]" name="createContactsAndVerify" class="com.crm.vtigerTY.contacts.CreateContactAndVerifyTest"/>
+        <method signature="CreateContactAndVerifyTest.createContactsAndVerify()[pri:1, instance:com.crm.vtigerTY.contacts.CreateContactAndVerifyTest@3cebbb30]" name="createContactsAndVerify" class="com.crm.vtigerTY.contacts.CreateContactAndVerifyTest"/>
+        <method signature="CreateOrganizationWithContactTest.createOranizationAndContactsAndVerify()[pri:0, instance:com.crm.vtigerTY.organization.CreateOrganizationWithContactTest@27462a88]" name="createOranizationAndContactsAndVerify" class="com.crm.vtigerTY.organization.CreateOrganizationWithContactTest"/>
+        <method signature="DuplicateTheContactAndVerifyTest.selectDuplicateContact()[pri:0, instance:com.crm.vtigerTY.contacts.DuplicateTheContactAndVerifyTest@1e1a0406]" name="selectDuplicateContact" class="com.crm.vtigerTY.contacts.DuplicateTheContactAndVerifyTest"/>
+        <method signature="SelectLastViewedContactAndLogoutTest.selectLastViewContactLogout()[pri:0, instance:com.crm.vtigerTY.contacts.SelectLastViewedContactAndLogoutTest@23c30a20]" name="selectLastViewContactLogout" class="com.crm.vtigerTY.contacts.SelectLastViewedContactAndLogoutTest"/>
       </group> <!-- smoke -->
     </groups>
-    <test started-at="2022-06-23T15:36:15 IST" name="Default test" finished-at="2022-06-23T15:37:42 IST" duration-ms="86878">
-      <class name="com.crm.vtigerTY.contacts.CreateContactAndVerifyTest">
-        <test-method is-config="true" signature="connectToDatabase()[pri:0, instance:com.crm.vtigerTY.contacts.CreateContactAndVerifyTest@2805d709]" started-at="2022-06-23T15:36:15 IST" name="connectToDatabase" finished-at="2022-06-23T15:36:15 IST" duration-ms="17" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- connectToDatabase -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.crm.vtigerTY.contacts.CreateContactAndVerifyTest@2805d709]" started-at="2022-06-23T15:36:15 IST" name="launchBrowser" finished-at="2022-06-23T15:36:37 IST" duration-ms="22483" status="PASS">
+    <test started-at="2022-06-24T12:52:27 IST" name="Test" finished-at="2022-06-24T13:00:05 IST" duration-ms="457164">
+      <class name="com.crm.vtigerTY.organization.CreateOrganizationWithContactTest">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.crm.vtigerTY.organization.CreateOrganizationWithContactTest@27462a88]" started-at="2022-06-24T12:58:15 IST" name="launchBrowser" finished-at="2022-06-24T12:58:27 IST" duration-ms="11557" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:com.crm.vtigerTY.contacts.CreateContactAndVerifyTest@2805d709]" started-at="2022-06-23T15:36:37 IST" name="loginToApplication" finished-at="2022-06-23T15:36:55 IST" duration-ms="17883" status="PASS">
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:com.crm.vtigerTY.organization.CreateOrganizationWithContactTest@27462a88]" started-at="2022-06-24T12:58:27 IST" name="loginToApplication" finished-at="2022-06-24T12:58:36 IST" duration-ms="9585" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginToApplication -->
-        <test-method signature="createContactsAndVerify()[pri:1, instance:com.crm.vtigerTY.contacts.CreateContactAndVerifyTest@2805d709]" started-at="2022-06-23T15:36:55 IST" name="createContactsAndVerify" finished-at="2022-06-23T15:37:37 IST" duration-ms="42089" status="PASS">
+        <test-method signature="createOranizationAndContactsAndVerify()[pri:0, instance:com.crm.vtigerTY.organization.CreateOrganizationWithContactTest@27462a88]" started-at="2022-06-24T12:58:36 IST" name="createOranizationAndContactsAndVerify" finished-at="2022-06-24T12:59:55 IST" duration-ms="78524" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[Contact is created and Test case is pass]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- createContactsAndVerify -->
-        <test-method is-config="true" signature="LogoutOffApplication()[pri:0, instance:com.crm.vtigerTY.contacts.CreateContactAndVerifyTest@2805d709]" started-at="2022-06-23T15:37:37 IST" name="LogoutOffApplication" finished-at="2022-06-23T15:37:41 IST" duration-ms="3867" status="PASS">
+        </test-method> <!-- createOranizationAndContactsAndVerify -->
+        <test-method is-config="true" signature="LogoutOffApplication()[pri:0, instance:com.crm.vtigerTY.organization.CreateOrganizationWithContactTest@27462a88]" started-at="2022-06-24T12:59:55 IST" name="LogoutOffApplication" finished-at="2022-06-24T12:59:57 IST" duration-ms="2458" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LogoutOffApplication -->
-        <test-method is-config="true" signature="closeTheBrowser()[pri:0, instance:com.crm.vtigerTY.contacts.CreateContactAndVerifyTest@2805d709]" started-at="2022-06-23T15:37:41 IST" name="closeTheBrowser" finished-at="2022-06-23T15:37:42 IST" duration-ms="471" status="PASS">
+        <test-method is-config="true" signature="closeTheBrowser()[pri:0, instance:com.crm.vtigerTY.organization.CreateOrganizationWithContactTest@27462a88]" started-at="2022-06-24T12:59:57 IST" name="closeTheBrowser" finished-at="2022-06-24T13:00:05 IST" duration-ms="7112" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeTheBrowser -->
-        <test-method is-config="true" signature="closeTheDatabase()[pri:0, instance:com.crm.vtigerTY.contacts.CreateContactAndVerifyTest@2805d709]" started-at="2022-06-23T15:37:42 IST" name="closeTheDatabase" finished-at="2022-06-23T15:37:42 IST" duration-ms="1" status="PASS">
+      </class> <!-- com.crm.vtigerTY.organization.CreateOrganizationWithContactTest -->
+      <class name="com.crm.vtigerTY.contacts.CreateContactAndVerifyTest">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.crm.vtigerTY.contacts.CreateContactAndVerifyTest@3cebbb30]" started-at="2022-06-24T12:55:22 IST" name="launchBrowser" finished-at="2022-06-24T12:55:28 IST" duration-ms="5778" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:com.crm.vtigerTY.contacts.CreateContactAndVerifyTest@3cebbb30]" started-at="2022-06-24T12:55:28 IST" name="loginToApplication" finished-at="2022-06-24T12:55:35 IST" duration-ms="6555" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="createContactsAndVerify()[pri:1, instance:com.crm.vtigerTY.contacts.CreateContactAndVerifyTest@3cebbb30]" started-at="2022-06-24T12:55:35 IST" name="createContactsAndVerify" finished-at="2022-06-24T12:55:56 IST" duration-ms="21778" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContactsAndVerify -->
+        <test-method is-config="true" signature="LogoutOffApplication()[pri:0, instance:com.crm.vtigerTY.contacts.CreateContactAndVerifyTest@3cebbb30]" started-at="2022-06-24T12:55:56 IST" name="LogoutOffApplication" finished-at="2022-06-24T12:55:59 IST" duration-ms="2134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogoutOffApplication -->
+        <test-method is-config="true" signature="closeTheBrowser()[pri:0, instance:com.crm.vtigerTY.contacts.CreateContactAndVerifyTest@3cebbb30]" started-at="2022-06-24T12:55:59 IST" name="closeTheBrowser" finished-at="2022-06-24T12:55:59 IST" duration-ms="714" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTheBrowser -->
+      </class> <!-- com.crm.vtigerTY.contacts.CreateContactAndVerifyTest -->
+      <class name="com.crm.vtigerTY.contacts.SelectLastViewedContactAndLogoutTest">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.crm.vtigerTY.contacts.SelectLastViewedContactAndLogoutTest@23c30a20]" started-at="2022-06-24T12:53:32 IST" name="launchBrowser" finished-at="2022-06-24T12:53:39 IST" duration-ms="7197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:com.crm.vtigerTY.contacts.SelectLastViewedContactAndLogoutTest@23c30a20]" started-at="2022-06-24T12:53:39 IST" name="loginToApplication" finished-at="2022-06-24T12:53:55 IST" duration-ms="15868" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="selectLastViewContactLogout()[pri:0, instance:com.crm.vtigerTY.contacts.SelectLastViewedContactAndLogoutTest@23c30a20]" started-at="2022-06-24T12:53:55 IST" name="selectLastViewContactLogout" finished-at="2022-06-24T12:54:04 IST" duration-ms="8591" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[test case is pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- selectLastViewContactLogout -->
+        <test-method is-config="true" signature="LogoutOffApplication()[pri:0, instance:com.crm.vtigerTY.contacts.SelectLastViewedContactAndLogoutTest@23c30a20]" started-at="2022-06-24T12:54:04 IST" name="LogoutOffApplication" finished-at="2022-06-24T12:54:19 IST" duration-ms="14856" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogoutOffApplication -->
+        <test-method is-config="true" signature="closeTheBrowser()[pri:0, instance:com.crm.vtigerTY.contacts.SelectLastViewedContactAndLogoutTest@23c30a20]" started-at="2022-06-24T12:54:19 IST" name="closeTheBrowser" finished-at="2022-06-24T12:54:20 IST" duration-ms="1260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTheBrowser -->
+      </class> <!-- com.crm.vtigerTY.contacts.SelectLastViewedContactAndLogoutTest -->
+      <class name="com.crm.vtigerTY.organization.CreateOrganizationAndVerifyTest">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.crm.vtigerTY.organization.CreateOrganizationAndVerifyTest@71a8adcf]" started-at="2022-06-24T12:57:47 IST" name="launchBrowser" finished-at="2022-06-24T12:57:53 IST" duration-ms="6002" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:com.crm.vtigerTY.organization.CreateOrganizationAndVerifyTest@71a8adcf]" started-at="2022-06-24T12:57:53 IST" name="loginToApplication" finished-at="2022-06-24T12:57:59 IST" duration-ms="6076" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="createOrganizationAndVerify()[pri:2, instance:com.crm.vtigerTY.organization.CreateOrganizationAndVerifyTest@71a8adcf]" started-at="2022-06-24T12:57:59 IST" name="createOrganizationAndVerify" finished-at="2022-06-24T12:58:15 IST" duration-ms="16200" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Cannot locate an element using xpath=//span[@id='dtlview_Organization Name']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-CGTN2DQ', ip: '192.168.214.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate an element using xpath=//span[@id='dtlview_Organization Name']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-CGTN2DQ', ip: '192.168.214.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: driver.version: RemoteWebDriver
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy16.getText(Unknown Source)
+at com.crm.vtigerTY.objectRepository.VtigerOrganizationInfoPage.getActualOrganizationName(VtigerOrganizationInfoPage.java:22)
+at com.crm.vtigerTY.organization.CreateOrganizationAndVerifyTest.createOrganizationAndVerify(CreateOrganizationAndVerifyTest.java:37)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrganizationAndVerify -->
+        <test-method is-config="true" signature="LogoutOffApplication()[pri:0, instance:com.crm.vtigerTY.organization.CreateOrganizationAndVerifyTest@71a8adcf]" started-at="2022-06-24T12:58:15 IST" name="LogoutOffApplication" finished-at="2022-06-24T12:58:15 IST" duration-ms="34" status="FAIL">
+          <exception class="org.openqa.selenium.json.JsonException">
+            <message>
+              <![CDATA[java.lang.reflect.InvocationTargetException
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-CGTN2DQ', ip: '192.168.214.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.json.JsonException: java.lang.reflect.InvocationTargetException
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-CGTN2DQ', ip: '192.168.214.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: driver.version: RemoteWebDriver
+at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:332)
+at org.openqa.selenium.json.JsonOutput.lambda$new$16(JsonOutput.java:155)
+at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:264)
+at org.openqa.selenium.json.JsonOutput.lambda$null$21(JsonOutput.java:168)
+at java.base/java.util.LinkedHashMap$LinkedValues.forEach(LinkedHashMap.java:647)
+at org.openqa.selenium.json.JsonOutput.lambda$new$22(JsonOutput.java:168)
+at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:264)
+at org.openqa.selenium.json.JsonOutput.lambda$null$23(JsonOutput.java:177)
+at com.google.common.collect.SingletonImmutableBiMap.forEach(SingletonImmutableBiMap.java:65)
+at org.openqa.selenium.json.JsonOutput.lambda$new$24(JsonOutput.java:176)
+at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:264)
+at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:255)
+at org.openqa.selenium.json.Json.toJson(Json.java:42)
+at org.openqa.selenium.remote.http.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:227)
+at org.openqa.selenium.remote.http.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:117)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:152)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:618)
+at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:639)
+at org.openqa.selenium.interactions.Actions.perform(Actions.java:595)
+at com.crm.vtigerTY.genericUtilities.WebDriverUtility.mouseOverAnElement(WebDriverUtility.java:222)
+at com.crm.vtigerTY.objectRepository.VtigerHomePage.signoutAppk(VtigerHomePage.java:81)
+at com.crm.vtigerTY.genericUtilities.BaseClass.LogoutOffApplication(BaseClass.java:87)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:676)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:660)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Suppressed: org.openqa.selenium.json.JsonException: Attempting to close incomplete json stream
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-CGTN2DQ', ip: '192.168.214.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: driver.version: RemoteWebDriver
+at org.openqa.selenium.json.JsonOutput.close(JsonOutput.java:279)
+at org.openqa.selenium.json.Json.toJson(Json.java:44)
+... 44 more
+Caused by: java.lang.reflect.InvocationTargetException
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:328)
+... 56 more
+Caused by: org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Organization Name Already Exists!}
+  (Session info: chrome=102.0.5005.115): Organization Name Already Exists!
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-CGTN2DQ', ip: '192.168.214.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\heman\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59989}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: afdd709f76495dbbfbc09607618e7aea
+*** Element info: {Using=xpath, value=//img[@src='themes/softed/images/user.PNG']}
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy16.getWrappedElement(Unknown Source)
+at org.openqa.selenium.interactions.PointerInput$Origin.asArg(PointerInput.java:204)
+at org.openqa.selenium.interactions.PointerInput$Move.encode(PointerInput.java:155)
+at org.openqa.selenium.interactions.Sequence.encode(Sequence.java:75)
+at org.openqa.selenium.interactions.Sequence.toJson(Sequence.java:84)
+... 61 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.json.JsonException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogoutOffApplication -->
+        <test-method is-config="true" signature="closeTheBrowser()[pri:0, instance:com.crm.vtigerTY.organization.CreateOrganizationAndVerifyTest@71a8adcf]" started-at="2022-06-24T12:58:15 IST" name="closeTheBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1656055695845" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTheBrowser -->
+      </class> <!-- com.crm.vtigerTY.organization.CreateOrganizationAndVerifyTest -->
+      <class name="com.crm.vtigerTY.contacts.CreateContactWithOrganizationTest">
+        <test-method is-config="true" signature="connectToDatabase()[pri:0, instance:com.crm.vtigerTY.contacts.CreateContactWithOrganizationTest@32502377]" started-at="2022-06-24T12:52:27 IST" name="connectToDatabase" finished-at="2022-06-24T12:52:27 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- connectToDatabase -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.crm.vtigerTY.contacts.CreateContactWithOrganizationTest@32502377]" started-at="2022-06-24T12:52:27 IST" name="launchBrowser" finished-at="2022-06-24T12:52:35 IST" duration-ms="7957" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:com.crm.vtigerTY.contacts.CreateContactWithOrganizationTest@32502377]" started-at="2022-06-24T12:52:35 IST" name="loginToApplication" finished-at="2022-06-24T12:52:54 IST" duration-ms="18869" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="createContactWithOrganization()[pri:0, instance:com.crm.vtigerTY.contacts.CreateContactWithOrganizationTest@32502377]" started-at="2022-06-24T12:52:54 IST" name="createContactWithOrganization" finished-at="2022-06-24T12:53:20 IST" duration-ms="25542" status="FAIL">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[chrome not reachable
+  (Session info: chrome=102.0.5005.115)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-CGTN2DQ', ip: '192.168.214.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\heman\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59153}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6b75d92d6cbd6ac133fb4e838ab651a0
+*** Element info: {Using=xpath, value=//img[@src='themes/softed/images/btnL3Add.gif']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=102.0.5005.115)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-CGTN2DQ', ip: '192.168.214.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\heman\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59153}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6b75d92d6cbd6ac133fb4e838ab651a0
+*** Element info: {Using=xpath, value=//img[@src='themes/softed/images/btnL3Add.gif']}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy16.click(Unknown Source)
+at com.crm.vtigerTY.objectRepository.VtigerContactPage.getCreateContactLUImg(VtigerContactPage.java:31)
+at com.crm.vtigerTY.contacts.CreateContactWithOrganizationTest.createContactWithOrganization(CreateContactWithOrganizationTest.java:38)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContactWithOrganization -->
+        <test-method is-config="true" signature="LogoutOffApplication()[pri:0, instance:com.crm.vtigerTY.contacts.CreateContactWithOrganizationTest@32502377]" started-at="2022-06-24T12:53:20 IST" name="LogoutOffApplication" finished-at="2022-06-24T12:53:32 IST" duration-ms="12231" status="FAIL">
+          <exception class="org.openqa.selenium.json.JsonException">
+            <message>
+              <![CDATA[java.lang.reflect.InvocationTargetException
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-CGTN2DQ', ip: '192.168.214.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.json.JsonException: java.lang.reflect.InvocationTargetException
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-CGTN2DQ', ip: '192.168.214.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: driver.version: RemoteWebDriver
+at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:332)
+at org.openqa.selenium.json.JsonOutput.lambda$new$16(JsonOutput.java:155)
+at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:264)
+at org.openqa.selenium.json.JsonOutput.lambda$null$21(JsonOutput.java:168)
+at java.base/java.util.LinkedHashMap$LinkedValues.forEach(LinkedHashMap.java:647)
+at org.openqa.selenium.json.JsonOutput.lambda$new$22(JsonOutput.java:168)
+at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:264)
+at org.openqa.selenium.json.JsonOutput.lambda$null$23(JsonOutput.java:177)
+at com.google.common.collect.SingletonImmutableBiMap.forEach(SingletonImmutableBiMap.java:65)
+at org.openqa.selenium.json.JsonOutput.lambda$new$24(JsonOutput.java:176)
+at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:264)
+at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:255)
+at org.openqa.selenium.json.Json.toJson(Json.java:42)
+at org.openqa.selenium.remote.http.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:227)
+at org.openqa.selenium.remote.http.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:117)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:152)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:618)
+at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:639)
+at org.openqa.selenium.interactions.Actions.perform(Actions.java:595)
+at com.crm.vtigerTY.genericUtilities.WebDriverUtility.mouseOverAnElement(WebDriverUtility.java:222)
+at com.crm.vtigerTY.objectRepository.VtigerHomePage.signoutAppk(VtigerHomePage.java:81)
+at com.crm.vtigerTY.genericUtilities.BaseClass.LogoutOffApplication(BaseClass.java:87)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:676)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:660)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Suppressed: org.openqa.selenium.json.JsonException: Attempting to close incomplete json stream
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-CGTN2DQ', ip: '192.168.214.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: driver.version: RemoteWebDriver
+at org.openqa.selenium.json.JsonOutput.close(JsonOutput.java:279)
+at org.openqa.selenium.json.Json.toJson(Json.java:44)
+... 44 more
+Caused by: java.lang.reflect.InvocationTargetException
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:328)
+... 56 more
+Caused by: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=102.0.5005.115)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-CGTN2DQ', ip: '192.168.214.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\heman\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59153}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6b75d92d6cbd6ac133fb4e838ab651a0
+*** Element info: {Using=xpath, value=//img[@src='themes/softed/images/user.PNG']}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy16.getWrappedElement(Unknown Source)
+at org.openqa.selenium.interactions.PointerInput$Origin.asArg(PointerInput.java:204)
+at org.openqa.selenium.interactions.PointerInput$Move.encode(PointerInput.java:155)
+at org.openqa.selenium.interactions.Sequence.encode(Sequence.java:75)
+at org.openqa.selenium.interactions.Sequence.toJson(Sequence.java:84)
+... 61 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.json.JsonException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogoutOffApplication -->
+        <test-method is-config="true" signature="closeTheBrowser()[pri:0, instance:com.crm.vtigerTY.contacts.CreateContactWithOrganizationTest@32502377]" started-at="2022-06-24T12:53:32 IST" name="closeTheBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1656055412626" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTheBrowser -->
+        <test-method is-config="true" signature="closeTheDatabase()[pri:0, instance:com.crm.vtigerTY.contacts.CreateContactWithOrganizationTest@32502377]" started-at="2022-06-24T13:00:05 IST" name="closeTheDatabase" finished-at="2022-06-24T13:00:05 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeTheDatabase -->
-      </class> <!-- com.crm.vtigerTY.contacts.CreateContactAndVerifyTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- com.crm.vtigerTY.contacts.CreateContactWithOrganizationTest -->
+      <class name="com.crm.vtigerTY.contacts.DuplicateTheContactAndVerifyTest">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.crm.vtigerTY.contacts.DuplicateTheContactAndVerifyTest@1e1a0406]" started-at="2022-06-24T12:54:20 IST" name="launchBrowser" finished-at="2022-06-24T12:54:33 IST" duration-ms="13151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:com.crm.vtigerTY.contacts.DuplicateTheContactAndVerifyTest@1e1a0406]" started-at="2022-06-24T12:54:33 IST" name="loginToApplication" finished-at="2022-06-24T12:54:42 IST" duration-ms="9020" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="selectDuplicateContact()[pri:0, instance:com.crm.vtigerTY.contacts.DuplicateTheContactAndVerifyTest@1e1a0406]" started-at="2022-06-24T12:54:42 IST" name="selectDuplicateContact" finished-at="2022-06-24T12:55:18 IST" duration-ms="35807" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Contact is created and Test case is pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- selectDuplicateContact -->
+        <test-method is-config="true" signature="LogoutOffApplication()[pri:0, instance:com.crm.vtigerTY.contacts.DuplicateTheContactAndVerifyTest@1e1a0406]" started-at="2022-06-24T12:55:18 IST" name="LogoutOffApplication" finished-at="2022-06-24T12:55:20 IST" duration-ms="2425" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogoutOffApplication -->
+        <test-method is-config="true" signature="closeTheBrowser()[pri:0, instance:com.crm.vtigerTY.contacts.DuplicateTheContactAndVerifyTest@1e1a0406]" started-at="2022-06-24T12:55:20 IST" name="closeTheBrowser" finished-at="2022-06-24T12:55:22 IST" duration-ms="1989" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTheBrowser -->
+      </class> <!-- com.crm.vtigerTY.contacts.DuplicateTheContactAndVerifyTest -->
+      <class name="com.crm.vtigerTY.organization.CreateOrganizationWithDropdownTest">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.crm.vtigerTY.organization.CreateOrganizationWithDropdownTest@67f639d3]" started-at="2022-06-24T12:57:07 IST" name="launchBrowser" finished-at="2022-06-24T12:57:14 IST" duration-ms="6484" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:com.crm.vtigerTY.organization.CreateOrganizationWithDropdownTest@67f639d3]" started-at="2022-06-24T12:57:14 IST" name="loginToApplication" finished-at="2022-06-24T12:57:20 IST" duration-ms="6837" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="createOrganizationWithDropdowns()[pri:0, instance:com.crm.vtigerTY.organization.CreateOrganizationWithDropdownTest@67f639d3]" started-at="2022-06-24T12:57:20 IST" name="createOrganizationWithDropdowns" finished-at="2022-06-24T12:57:44 IST" duration-ms="23166" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[organization created and Test case is pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createOrganizationWithDropdowns -->
+        <test-method is-config="true" signature="LogoutOffApplication()[pri:0, instance:com.crm.vtigerTY.organization.CreateOrganizationWithDropdownTest@67f639d3]" started-at="2022-06-24T12:57:44 IST" name="LogoutOffApplication" finished-at="2022-06-24T12:57:46 IST" duration-ms="2710" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogoutOffApplication -->
+        <test-method is-config="true" signature="closeTheBrowser()[pri:0, instance:com.crm.vtigerTY.organization.CreateOrganizationWithDropdownTest@67f639d3]" started-at="2022-06-24T12:57:46 IST" name="closeTheBrowser" finished-at="2022-06-24T12:57:47 IST" duration-ms="679" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTheBrowser -->
+      </class> <!-- com.crm.vtigerTY.organization.CreateOrganizationWithDropdownTest -->
+      <class name="com.crm.vtigerTY.contacts.SelectContactAndSendEmailTest">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.crm.vtigerTY.contacts.SelectContactAndSendEmailTest@12aba8be]" started-at="2022-06-24T12:55:59 IST" name="launchBrowser" finished-at="2022-06-24T12:56:05 IST" duration-ms="5488" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:com.crm.vtigerTY.contacts.SelectContactAndSendEmailTest@12aba8be]" started-at="2022-06-24T12:56:05 IST" name="loginToApplication" finished-at="2022-06-24T12:56:11 IST" duration-ms="5765" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="selectOneContactSendEmail()[pri:0, instance:com.crm.vtigerTY.contacts.SelectContactAndSendEmailTest@12aba8be]" started-at="2022-06-24T12:56:11 IST" name="selectOneContactSendEmail" finished-at="2022-06-24T12:56:30 IST" duration-ms="19390" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[compose page is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- selectOneContactSendEmail -->
+        <test-method is-config="true" signature="LogoutOffApplication()[pri:0, instance:com.crm.vtigerTY.contacts.SelectContactAndSendEmailTest@12aba8be]" started-at="2022-06-24T12:56:30 IST" name="LogoutOffApplication" finished-at="2022-06-24T12:56:33 IST" duration-ms="3240" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogoutOffApplication -->
+        <test-method is-config="true" signature="closeTheBrowser()[pri:0, instance:com.crm.vtigerTY.contacts.SelectContactAndSendEmailTest@12aba8be]" started-at="2022-06-24T12:56:33 IST" name="closeTheBrowser" finished-at="2022-06-24T12:56:34 IST" duration-ms="601" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTheBrowser -->
+      </class> <!-- com.crm.vtigerTY.contacts.SelectContactAndSendEmailTest -->
+      <class name="com.crm.vtigerTY.contacts.EditContactAndVerifyTest">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.crm.vtigerTY.contacts.EditContactAndVerifyTest@290222c1]" started-at="2022-06-24T12:56:34 IST" name="launchBrowser" finished-at="2022-06-24T12:56:39 IST" duration-ms="5611" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:com.crm.vtigerTY.contacts.EditContactAndVerifyTest@290222c1]" started-at="2022-06-24T12:56:39 IST" name="loginToApplication" finished-at="2022-06-24T12:56:45 IST" duration-ms="5502" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="editContactAndVerify()[pri:0, instance:com.crm.vtigerTY.contacts.EditContactAndVerifyTest@290222c1]" started-at="2022-06-24T12:56:45 IST" name="editContactAndVerify" finished-at="2022-06-24T12:57:01 IST" duration-ms="16489" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Contact is created and Test case is pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- editContactAndVerify -->
+        <test-method is-config="true" signature="LogoutOffApplication()[pri:0, instance:com.crm.vtigerTY.contacts.EditContactAndVerifyTest@290222c1]" started-at="2022-06-24T12:57:01 IST" name="LogoutOffApplication" finished-at="2022-06-24T12:57:05 IST" duration-ms="4109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogoutOffApplication -->
+        <test-method is-config="true" signature="closeTheBrowser()[pri:0, instance:com.crm.vtigerTY.contacts.EditContactAndVerifyTest@290222c1]" started-at="2022-06-24T12:57:05 IST" name="closeTheBrowser" finished-at="2022-06-24T12:57:07 IST" duration-ms="1670" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTheBrowser -->
+      </class> <!-- com.crm.vtigerTY.contacts.EditContactAndVerifyTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
